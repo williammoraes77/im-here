@@ -10,12 +10,12 @@
 </h1>
 
 <p>Projeto desenvolvido durante o curso ignite da Rocketseat. Além do conteúdo realizado no curso adicionei algumas features nele como diferenciais, sendo elas:</p>
-<br>
+
 <p>* Styled components</p>
-<br>
-<p>* Alteração no tema do App quando o usuário altera a aparência do seu dispositivo com dark/light, o tema do aplicativo é alterado de forma automatia</p>
-<br>
-<p>* Data automática no projeto</p>
+
+<p>* Alteração no tema do App. Quando o usuário faz a mudança da aparência no seu dispositivo com dark/light, o tema do aplicativo é alterado de forma automátia</p>
+
+<p>* Data automática no projeto com date-fns</p>
 
 ## Imagens
 
