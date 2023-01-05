@@ -2,17 +2,20 @@
 <!-- <br>
   <img src="https://github.com/williammoraes77/im-here/blob/master/assets/icon.png" alt="Im HERE" width="120">
 <br> -->
+
+## Descrição do projeto
+
 <br>
   I'm Here
 </h1>
 
-<p>Projeto desenvolvido durante o curso ignite da Rocketseat. Além do conteudo realizado no curso adicionei algumas features nele, sendo elas:</p>
+<p>Projeto desenvolvido durante o curso ignite da Rocketseat. Além do conteúdo realizado no curso adicionei algumas features nele como diferenciais, sendo elas:</p>
 <br>
-<p>* Adicionei Styled components</p>
+<p>* Styled components</p>
 <br>
-<p>* Quando o usuario altera a aparencia do seu dispositivo com dark/light, o tema do aplicativo é alterado de forma automatia</p>
+<p>* Alteração no tema do App quando o usuário altera a aparência do seu dispositivo com dark/light, o tema do aplicativo é alterado de forma automatia</p>
 <br>
-<p>* Data automatica automatica no projeto</p>
+<p>* Data automática no projeto</p>
 
 [//]: # "Add your gifs/images here:"
 
