@@ -3,6 +3,8 @@ import { Alert, FlatList, useColorScheme } from "react-native";
 
 import { Participant } from "../components/Participant";
 
+import { format } from "date-fns";
+
 import {
   Container,
   EventName,
@@ -18,8 +20,12 @@ export function Home() {
   const [participants, setParticipants] = useState<string[]>([]);
   const [participantName, setParticipantName] = useState("");
 
-  const deviceTheme = useColorScheme();
-  console.log(deviceTheme);
+  const date = new Date();
+
+  const dateFormated = `${format(date, "MMMM")}, ${format(date, "e")},(${format(
+    date,
+    "eeee"
+  )}) ${format(date, "yyyy")}`;
 
   function handleParticipantAdd() {
     if (participants.includes(participantName)) {
@@ -51,9 +57,10 @@ export function Home() {
 
   return (
     <Container>
-      <EventName>Nome do evento</EventName>
+      <EventName>Evento</EventName>
 
-      <EventDate>Sexta, 4 de Novembro de 2022.</EventDate>
+      {/* <EventDate>Sexta, 4 de Novembro de 2022.</EventDate> */}
+      <EventDate>{dateFormated}</EventDate>
 
       <Form>
         <InputText
