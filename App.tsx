@@ -10,11 +10,12 @@ export default function App() {
   const deviceTheme = useColorScheme();
 
   const theme = themes[deviceTheme] || themes.dark;
+  console.log(deviceTheme);
 
   return (
     <ThemeProvider theme={theme}>
       <StatusBar
-        barStyle="light-content"
+        barStyle={deviceTheme === "dark" ? "light-content" : "dark-content"}
         backgroundColor="transparent"
         translucent
       />
