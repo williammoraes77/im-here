@@ -19,8 +19,8 @@
 
 ## Imagens
 
-<div class="center">
-  <img class="center" src="https://github.com/williammoraes77/im-here/blob/master/assets/imhere.gif" alt="App theme" height="425">
+<div align="center">
+  <img align="center" src="https://github.com/williammoraes77/im-here/blob/master/assets/imhere.gif" alt="App theme" height="425">
 </div>
 
 <hr />
