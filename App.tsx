@@ -9,8 +9,8 @@ import themes from "./src/theme";
 export default function App() {
   const deviceTheme = useColorScheme();
 
-  const theme = themes[deviceTheme] || themes.dark;
-  console.log(deviceTheme);
+  const theme =
+    themes[deviceTheme === "dark" ? "dark" : "light"] || themes.dark;
 
   return (
     <ThemeProvider theme={theme}>

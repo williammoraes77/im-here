@@ -2,7 +2,6 @@ import styled, { css } from "styled-components/native";
 
 export const Container = styled.View`
   width: 100%;
-  /* background-color: "1F1E25"; */
   border-radius: 5px;
   flex-direction: row;
   align-items: center;
